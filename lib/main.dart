@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Wisata Bandung',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        fontFamily: "Oswald",
       ),
       home: const DetailScreen(),
     );
